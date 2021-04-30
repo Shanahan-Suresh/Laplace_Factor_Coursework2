@@ -1,0 +1,181 @@
+body{
+	background-color: #AACFF5;}
+.title ul{
+	margin: 80px;
+}
+.title ul li{
+	color: white;
+	font-size: 30px;
+	display: inline;
+	list-style: none;
+	margin: 30px;
+	cursor: pointer;
+}
+.title{
+	background-color: #7EBCFB ;
+}
+
+.active{
+	color: #044C96 !important;
+	}
+.showcase{
+	background-color: #fbcd7e;
+	font-size: 25px;
+	color: #28409c;
+	margin-left: 150px;
+	margin-right: 350px;
+}
+.categori{
+	font-size: 30px;
+}
+span.a{
+	display: inline-block;
+}
+
+.showcase ul li{
+	display:inline;
+	list-style: none;
+	background-color:#fbcd7e;
+}
+.end{
+	background-color:#7EBCFB  ;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+
+.table{
+	margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+}
+table {
+	border-spacing: 0.4em 1.2em
+}
+p.endwords{
+	font-size: 16px!IMPORTANT;
+	color: silver;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+button {
+  background: #fbae7e;
+  position: absolute;
+  left: 50%;
+  padding: .5rem;
+  margin: 1rem 0;
+  text-transform: uppercase;  
+  border-radius:4px;
+  font-family: courier;
+  font-size:22pt;
+  text-shadow: 1px 1px 1px #fbec7e,
+               1px 1px 1px #7eb8fb;
+  color: #9f7efb;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #f5daaa;
+  color: #ff6923;
+  text-shadow: 1px 1px 1px #23c4ff,
+               1px 1px 1px #ffd723;
+}
+
+label{
+display: inline-block;
+margin: 5px;
+width: 150px;
+}
+
+#insertform{
+border: 5px solid #f5e4da;
+text-align: center;
+font-family: Courier New;
+}
+
+#submit{
+position: absolute;
+left: 44%;
+background: #aacff5;
+padding: 0.5rem;
+margin: 1rem 0;
+text-transform: uppercase;
+border-radius:20px;
+font-family: courier;
+font-size:20pt;
+text-shadow: 1px 1px 1px #7EBCFB,
+2px 2px 1px #7EBCFB;
+color: white;
+cursor: pointer;
+}
+
+#submit:hover{
+  background: #7EBCFB;
+}
+
+#button{
+  position: relative;
+  left: 5%;
+  background: #aacff5;
+  padding: .5rem;
+  margin: 1rem 0;
+  text-transform: uppercase;  
+  border-radius:20px;
+  font-family: courier;
+  font-size:20pt;
+  text-shadow: 1px 1px 1px #7EBCFB,
+               2px 2px 1px #7EBCFB;
+  color: white;
+  cursor: pointer;
+}
+#button:hover{
+  background: #7EBCFB;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #f5e4da;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #f5e4da;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+label{
+display: inline-block;
+margin: 5px;
+width: 150px;
+}
+#insertform{
+border: 5px solid #f5e4da;
+text-align: center;
+font-family: Courier New;
+}
